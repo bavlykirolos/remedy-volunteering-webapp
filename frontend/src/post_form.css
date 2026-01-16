@@ -1,0 +1,35 @@
+.postform-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.postform-label {
+  display: block;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.postform-input,
+.postform-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.postform-textarea {
+  resize: vertical;
+}
+
+.postform-submit {
+  margin-top: 20px;
+  padding: 10px;
+  background: #69B8B3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

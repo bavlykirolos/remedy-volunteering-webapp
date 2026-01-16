@@ -1,0 +1,118 @@
+.calendar-container {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 80px 20px 20px 20px;
+}
+
+.calendar-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.calendar-button {
+  background: #69B8B3;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.calendar-button.secondary {
+  background: #69B8B3;
+}
+
+.calendar-button.danger {
+  background: #dc3545;
+}
+
+.calendar-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.calendar-select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.calendar-form-section {
+  margin-bottom: 15px;
+}
+
+.calendar-form-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.calendar-form-section input,
+.calendar-form-section select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+.calendar-form-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 8px;
+}
+
+.calendar-form-checkbox input {
+  width: 18px;
+  height: 18px;
+}
+
+.calendar-form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.fc .fc-button-primary {
+  background-color: #69B8B3 !important; 
+  border-color: #69B8B3 !important;
+  color: white !important;
+}
+
+
+.fc .fc-button-primary:hover,
+.fc .fc-button-primary:focus {
+  background-color: #56A29E !important;
+  border-color: #56A29E !important;
+}
+
+.fc .fc-button-primary:disabled {
+  background-color: #9E9E9E !important;
+  border-color: #9E9E9E !important;
+}
+
+.fc .fc-day-today {
+  background-color: #E1F7F6 !important; 
+}
+
+.fc .fc-timegrid-axis {
+  background-color: #f0f0f0; 
+  color: #333;
+}

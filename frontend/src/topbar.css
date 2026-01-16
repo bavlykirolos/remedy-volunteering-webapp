@@ -1,0 +1,32 @@
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 22px; 
+  font-weight: 600;
+}
+
+.topbar .btn {
+  background: #69B8B3;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.topbar .btn.secondary { background: #69B8B3; }
+.topbar .btn.danger    { background: #dc3545; }
