@@ -20,7 +20,8 @@ CORS(
     resources={
         r"/*": {
             "origins": [
-                "http://localhost:3000",           
+                "http://localhost:3000",     
+                #"https://rremedy-volunteering-webapp-bavlys-projects-813f2d3b.vercel.app/",      
                  r"https://.*\.vercel\.app"
             ]
         }
@@ -37,7 +38,6 @@ users_coll = db.users
 requests_coll = db.requests
 posts_coll = db.posts
 events_coll = db.events
-
 
 @app.route("/register", methods=["POST", "OPTIONS"])
 def register():
