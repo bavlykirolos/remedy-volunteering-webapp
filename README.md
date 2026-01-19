@@ -1,5 +1,6 @@
 # HCAD
-- Created by Leo Cai (leocai2004@gmail.com), Muzaffar Hasan Collak (mh.colak@outlook.com) and Bavly Kirolos (me :) ) as part of our HCAD cource in Technische Universität München​
+- Created by Leo Cai (leocai2004@gmail.com), Muzaffar Hasan Collak (mh.colak@outlook.com) and Bavly Kirolos (me :) ) as part of our HCAD cource in Technische Universität München
+- check out remedyy.vercel.app​
 # Set up
 - navigate to HCAD/backend
 - On Linux/MacOS:
