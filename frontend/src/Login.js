@@ -26,7 +26,7 @@ function Login({ onLogin }) {
         if (prev >= 90) return prev;
         return prev + Math.random() * 10;
       });
-    }, 500);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [loading]);
